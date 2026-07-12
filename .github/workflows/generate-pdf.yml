@@ -1,0 +1,54 @@
+name: Generate CV PDF
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'cv.md'
+      - 'assets/css/print-style.css'
+      - 'assets/templates/template.html'
+      - '.github/workflows/generate-pdf.yml'
+  workflow_dispatch:
+
+jobs:
+  generate-pdf:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc weasyprint
+
+      - name: Create assets/pdf directory
+        run: mkdir -p assets/pdf
+
+      - name: Convert Markdown to PDF
+        run: |
+          pandoc cv.md -o assets/pdf/DmytroSmenovCV.pdf \
+            --template=assets/templates/template.html \
+            --css=assets/css/print-style.css \
+            --pdf-engine=weasyprint \
+            --metadata title="Dmytro Smenov CV"
+
+      - name: Verify and Commit
+        run: |
+          if [ -f assets/pdf/DmytroSmenovCV.pdf ]; then
+            git config --global user.name "github-actions[bot]"
+            git config --global user.email "github-actions[bot]@users.noreply.github.com"
+            git add assets/pdf/DmytroSmenovCV.pdf
+            if git commit -m "chore: update CV PDF [skip ci]"; then
+              git push origin main
+            else
+              echo "No changes to commit"
+            fi
+          else
+            echo "Error: PDF not generated!"
+            exit 1
+          fi
