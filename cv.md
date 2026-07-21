@@ -20,7 +20,7 @@ Poland
 
 [facebook.com/anna.magdalena.1984](https://www.facebook.com/anna.magdalena.1984)
 
-[arobakowska.com](https://arobakowska.com)
+[robakowska.com](https://robakowska.com)
 
 <br>
 
