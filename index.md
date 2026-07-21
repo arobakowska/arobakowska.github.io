@@ -25,14 +25,3 @@ My values:
 - I keep the engine running smoothly while helping teams thrive. Great infrastructure is invisible because it just works, but great teamwork takes effort. Combining a DevOps mindset with agile leadership, I make sure systems stay stable and monitored, while keeping communication open and helping teams collaborate without friction.
 
 - I love learning and sharing knowledge. I keep improving my skills, and sharing them with others.
-
-<div class="video-frame-container no-print">
-  <iframe src="https://www.youtube.com/embed/yW3AAptQXEM" title="Dmytro Smenov - Me" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-<div class="video-link-wrapper no-print">
-  <a href="https://youtu.be/yW3AAptQXEM" class="video-link-btn" target="_blank" rel="noopener">
-    <i class="bi bi-youtube"></i> Watch "Me" on YouTube
-  </a>
-</div>
-
-

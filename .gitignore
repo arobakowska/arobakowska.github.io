@@ -5,3 +5,6 @@ _site/
 .jekyll-metadata
 .bundle/
 vendor/
+
+# VS Code
+arobakowska.github.io.code-workspace
