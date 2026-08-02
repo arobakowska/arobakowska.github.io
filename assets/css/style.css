@@ -1021,7 +1021,9 @@ footer p {
   .cv-2column-layout {
     flex-direction: column;
   }
-  .cv-sidebar, .cv-main {
+
+  .cv-sidebar,
+  .cv-main {
     width: 100%;
   }
-}
+}
