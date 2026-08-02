@@ -13,14 +13,19 @@ I agree to the processing of personal data provided in this document for realizi
 </div>
 
 # Anna Robakowska
+
 [LinkedIn](https://www.linkedin.com/in/anna-robakowska/) | [robakowska.com](https://robakowska.com)
 
 Katowice, Poland
+
 anna.m.robakowska@outlook.com
+
 +48 506 909 637
 
 Avaliable for:
+
 On-site/Hybrid (ready to relocate)
+
 100% Remote (worldwide via B2B)
 
 <br>
