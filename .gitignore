@@ -1,11 +1,46 @@
-# Jekyll
+# Jekyll & Ruby
 _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
 .bundle/
 vendor/
-Gemfile.lock
+*.gem
+*.rbc
 
-# VS Code
-arobakowska.github.io.code-workspace
+# OS Generated Files
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# IDE & Code Editors
+.vscode/
+*.code-workspace
+.idea/
+*.iml
+*.iws
+*.ipr
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.*.sw?
+
+# Environment & Logs
+.env
+.env.*
+*.log
+.tmp/
+

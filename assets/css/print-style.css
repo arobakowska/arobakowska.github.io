@@ -1,88 +1,39 @@
+/* ==========================================================================
+   Print & PDF Page Overrides - Applied AFTER style.css
+   Ensures 100% Visual Parity with http://127.0.0.1:4000/cv
+   ========================================================================== */
+
 @page {
-  margin: 1cm;
-  size: A4;
+  size: A4 portrait;
+  margin: 12mm 14mm 12mm 14mm;
 }
 
-body {
-  font-family: 'Segoe UI', 'Helvetica', 'Arial', sans-serif;
-  line-height: 1.3;
-  font-size: 11pt;
-  color: #333;
-  text-align: justify;
-  text-justify: inter-word;
-  -webkit-text-align-last: justify;
-  text-align-last: justify;
+* {
+  box-sizing: border-box;
+  -webkit-print-color-adjust: exact !important;
+  print-color-adjust: exact !important;
 }
 
-/* Page Break Logic for WeasyPrint */
-.page-break {
-  display: block;
-  page-break-after: always;
-  break-after: page;
+html, body {
+  background: #ffffff !important;
+  color: #111827 !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
-/* Header Section */
-h1 {
-  font-size: 24pt;
-  color: #1a5276;
-  margin-bottom: 5px;
-  border-bottom: 3px solid #1a5276;
-}
-
-/* Section Headers - Updated to h2 to match your ## Markdown */
-h2 {
-  font-size: 14pt;
-  color: #1a5276;
-  padding: 5px 10px;
-  margin-top: 20px;
-  border-left: 5px solid #1a5276;
-  break-after: avoid;
-  /* Prevents header from being orphaned at bottom of page */
-}
-
-/* Experience Layout */
-.exp-header {
-  display: flex;
-  justify-content: space-between;
-  font-weight: bold;
-  color: #2c3e50;
-  margin-top: 15px;
-}
-
-.company {
-  color: #2980b9;
-}
-
-a {
-  color: #2980b9;
-  text-decoration: none;
-}
-
-ul {
-  padding-left: 20px;
-}
-
-li {
-  margin-bottom: 5px;
-  break-inside: avoid;
-}
-
-/* GDPR styling */
-.gdpr {
-  font-size: 8pt;
-  color: #95a5a6;
-  margin-bottom: 20px;
-  font-style: italic;
-}
-
-/* Keeps job blocks together */
-p {
-  margin-bottom: 5px;
-  break-inside: avoid;
-  text-align: justify;
-}
-
-/* Hides elements in PDF/Print */
-.no-print {
+.no-print,
+.pdf-download-btn-container,
+.main-header,
+footer {
   display: none !important;
+}
+
+/* Remove outer shadow/card border for crisp A4 PDF printing */
+.cv-single-column {
+  box-shadow: none !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  background: transparent !important;
+  border-radius: 0 !important;
 }

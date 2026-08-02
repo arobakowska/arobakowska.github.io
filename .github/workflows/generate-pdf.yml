@@ -33,6 +33,7 @@ jobs:
         run: |
           pandoc cv.md -o assets/pdf/AnnaRobakowskaCV.pdf \
             --template=assets/templates/template.html \
+            --css=assets/css/style.css \
             --css=assets/css/print-style.css \
             --pdf-engine=weasyprint \
             --metadata title="Anna Robakowska CV"
