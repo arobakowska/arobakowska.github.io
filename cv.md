@@ -16,9 +16,9 @@ I agree to the processing of personal data provided in this document for realizi
 
 Poland
 
-[linkedin.com/in/anna-robakowska](https://www.linkedin.com/in/anna-robakowska/)
+[Linkedin](https://www.linkedin.com/in/anna-robakowska/)
 
-[facebook.com/anna.magdalena.1984](https://www.facebook.com/anna.magdalena.1984)
+[Facebook](https://www.facebook.com/anna.magdalena.1984)
 
 [robakowska.com](https://robakowska.com)
 
