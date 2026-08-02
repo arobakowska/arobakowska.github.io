@@ -5,6 +5,7 @@ _site/
 .jekyll-metadata
 .bundle/
 vendor/
+Gemfile.lock
 
 # VS Code
 arobakowska.github.io.code-workspace
