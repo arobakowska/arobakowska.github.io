@@ -1,11 +1,10 @@
 /* ==========================================================================
-   Print & PDF Page Overrides - Applied AFTER style.css
-   Ensures 100% Visual Parity with http://127.0.0.1:4000/cv
+   Print & PDF Page Overrides - 2-Column Enhancv Sidebar Layout
    ========================================================================== */
 
 @page {
   size: A4 portrait;
-  margin: 12mm 14mm 12mm 14mm;
+  margin: 0;
 }
 
 * {
@@ -15,10 +14,15 @@
 }
 
 html, body {
-  background: #ffffff !important;
-  color: #111827 !important;
-  margin: 0 !important;
-  padding: 0 !important;
+  margin: 0;
+  padding: 0;
+  width: 210mm;
+  height: 297mm;
+  background-color: #ffffff;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #1e293b;
+  font-size: 8.8pt;
+  line-height: 1.35;
 }
 
 .no-print,
@@ -28,12 +32,313 @@ footer {
   display: none !important;
 }
 
-/* Remove outer shadow/card border for crisp A4 PDF printing */
-.cv-single-column {
+/* 2-Column Flex Container for Print */
+.cv-2column-layout {
+  display: flex !important;
+  flex-direction: row !important;
+  width: 100% !important;
+  min-height: 297mm !important;
   box-shadow: none !important;
   border: none !important;
-  padding: 0 !important;
-  margin: 0 !important;
-  background: transparent !important;
   border-radius: 0 !important;
+}
+
+.cv-sidebar {
+  width: 33% !important;
+  background: #1e3a5f !important;
+  color: #f8fafc !important;
+  padding: 22px 14px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 14px !important;
+}
+
+.profile-photo-wrapper {
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.profile-photo-circle {
+  width: 76px;
+  height: 76px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #93c5fd;
+  font-size: 38px;
+}
+
+.sidebar-title {
+  font-family: 'Outfit', sans-serif;
+  font-size: 9pt;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 3px;
+  margin: 0 0 6px 0;
+}
+
+.sidebar-achievement {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 4px;
+  padding: 6px 8px;
+  border-left: 3px solid #3b82f6;
+  margin-bottom: 4px;
+}
+
+.achievement-header {
+  font-weight: 600;
+  color: #93c5fd;
+  font-size: 8.2pt;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 2px;
+}
+
+.sidebar-achievement p {
+  color: #cbd5e1;
+  font-size: 7.5pt;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.sidebar-education {
+  margin-bottom: 6px;
+}
+
+.edu-degree {
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 8.2pt;
+}
+
+.edu-school {
+  color: #bfdbfe;
+  font-size: 7.8pt;
+}
+
+.edu-meta {
+  display: flex;
+  justify-content: space-between;
+  color: #94a3b8;
+  font-size: 7.2pt;
+  margin-top: 1px;
+}
+
+.sidebar-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+.skill-pill {
+  background: rgba(255, 255, 255, 0.12);
+  color: #f1f5f9;
+  border-radius: 3px;
+  padding: 2px 6px;
+  font-size: 7.2pt;
+  font-weight: 500;
+}
+
+/* RIGHT MAIN COLUMN */
+.cv-main {
+  width: 67% !important;
+  background-color: #ffffff !important;
+  padding: 22px 18px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+}
+
+.cv-header {
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 10px;
+  margin-bottom: 8px;
+}
+
+.candidate-name {
+  font-family: 'Outfit', sans-serif;
+  font-size: 20pt;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 0 0 3px 0;
+  letter-spacing: -0.5px;
+}
+
+.candidate-subtitle {
+  font-size: 9pt;
+  font-weight: 600;
+  color: #2563eb;
+  margin-bottom: 6px;
+}
+
+.contact-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  font-size: 7.8pt;
+  color: #475569;
+}
+
+.contact-line span {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.contact-line i {
+  color: #2563eb;
+  font-size: 8.5pt;
+}
+
+.contact-line a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.cv-section {
+  margin-bottom: 8px;
+}
+
+.section-title {
+  font-family: 'Outfit', sans-serif;
+  font-size: 10pt;
+  font-weight: 800;
+  color: #0f172a;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 2px;
+  margin: 0 0 8px 0;
+}
+
+.summary-paragraph {
+  font-size: 8.2pt;
+  color: #334155;
+  line-height: 1.38;
+  margin: 0;
+  text-align: justify;
+}
+
+.experience-entry {
+  margin-bottom: 9px;
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.job-title {
+  font-weight: 700;
+  color: #0f172a;
+  font-size: 8.8pt;
+}
+
+.job-date {
+  font-size: 7.8pt;
+  color: #64748b;
+  font-weight: 500;
+}
+
+.company-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1px;
+  margin-bottom: 3px;
+}
+
+.company-name {
+  color: #2563eb;
+  font-weight: 600;
+  font-size: 8.2pt;
+}
+
+.job-location {
+  color: #64748b;
+  font-size: 7.5pt;
+}
+
+.badge-tag {
+  font-size: 7.2pt;
+  font-weight: 600;
+  background: #eff6ff;
+  color: #1d4ed8;
+  padding: 1px 4px;
+  border-radius: 3px;
+  margin-left: 4px;
+}
+
+.job-bullets {
+  margin: 3px 0 0 14px;
+  padding: 0;
+  list-style-type: disc;
+}
+
+.job-bullets li {
+  font-size: 7.8pt;
+  line-height: 1.35;
+  color: #334155;
+  margin-bottom: 2px;
+}
+
+.job-bullets li strong {
+  color: #0f172a;
+}
+
+.languages-row {
+  display: flex;
+  gap: 14px;
+}
+
+.lang-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.lang-name {
+  font-weight: 700;
+  color: #0f172a;
+  font-size: 8.2pt;
+}
+
+.lang-level {
+  color: #64748b;
+  font-size: 7.5pt;
+}
+
+.dot-rating {
+  display: flex;
+  gap: 3px;
+}
+
+.dot-rating .dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #cbd5e1;
+}
+
+.dot-rating .dot.active {
+  background: #2563eb;
+}
+
+.gdpr-box {
+  font-size: 7pt;
+  color: #64748b;
+  font-style: italic;
+  border-top: 1px solid #e2e8f0;
+  padding-top: 6px;
+  margin-top: 6px;
+  line-height: 1.3;
 }

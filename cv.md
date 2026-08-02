@@ -8,15 +8,77 @@ title: "Anna Robakowska CV"
 </a>
 </div>
 
-<div class="cv-single-column">
-<!-- GDPR -->
-<div class="gdpr-box">
-I agree to the processing of personal data provided in this document for realizing the recruitment process under the Personal Data Protection Act of 10 May 2018 and in agreement with Regulation (EU) 2016/679 (GDPR).
+<div class="cv-2column-layout">
+
+<!-- LEFT SIDEBAR -->
+<aside class="cv-sidebar">
+
+<div class="profile-photo-wrapper">
+<div class="profile-photo-circle">
+<i class="bi bi-person-fill"></i>
 </div>
+</div>
+
+<div class="sidebar-section">
+<h3 class="sidebar-title">Anna Robakowska</h3>
+<span style="font-size: 12px">Knowledge & Information Professional</span>
+<span style="font-size: 12px">Secondary Research Analyst</span>
+<span style="font-size: 12px">Data Management</span>
+</div>
+
+<div class="sidebar-section">
+<h3 class="sidebar-title">ABOUT ME</h3>
+<div class="contact-line">
+<span><i class="bi bi-geo-alt-fill"></i> Katowice, Poland</span>
+<span><i class="bi bi-telephone-fill"></i> +48 506 909 637</span>
+<span><i class="bi bi-envelope-fill"></i> <a href="mailto:anna.m.robakowska@outlook.com">anna.m.robakowska@outlook.com</a></span>
+<span><i class="bi bi-linkedin"></i> <a href="https://www.linkedin.com/in/anna-robakowska/" target="_blank">LinkedIn</a></span>
+<span><i class="bi bi-globe"></i> <a href="https://robakowska.com" target="_blank">robakowska.com</a></span>
+</div>
+<div>
+</div>
+</div>
+
+<div class="sidebar-section">
+<h3 class="sidebar-title">EDUCATION</h3>
+</div>
+
+<div class="sidebar-education">
+<div class="edu-degree">Master’s Degree</div>
+<div class="edu-school">University of Silesia in Katowice</div>
+<span style="font-size: 12px">Library and Information Science, LIS</span>
+<div class="edu-meta">
+<span>2006 – 2008</span>
+<span>Katowice, PL</span>
+</div>
+</div>
+
+<div class="sidebar-education">
+<div class="edu-degree">2003-2006 | Bachelor’s Degree</div>
+<span style="font-size: 12px">Library and Information Science (LIS)</span>
+<span style="font-size: 12px">University of Silesia in Katowice, Poland</span>
+<div class="edu-meta">
+
+</div>
+</div>
+
+
+<div class="sidebar-section">
+<h3 class="sidebar-title">LANGUAGES</h3>
+<span style="font-size: 12px">Polish - Native</span>
+<span style="font-size: 12px">English - C1</span>
+<span style="font-size: 12px">Spanish - A1</span>
+</div>
+
+</aside>
+
+<!-- RIGHT MAIN COLUMN -->
+<main class="cv-main">
+
 <!-- HEADER -->
 <header class="cv-header">
 <h1 class="candidate-name">ANNA ROBAKOWSKA</h1>
-<div class="candidate-subtitle">Knowledge & Information Professional | Secondary Research Analyst | Data Management</div>
+<div class="candidate-subtitle">Knowledge & Information Professional &nbsp;|&nbsp; Secondary Research Analyst &nbsp;|&nbsp; Data Management</div>
 <div class="contact-line">
 <span><i class="bi bi-geo-alt-fill"></i> Katowice, Poland</span>
 <span><i class="bi bi-telephone-fill"></i> +48 506 909 637</span>
@@ -41,12 +103,11 @@ A highly responsible and detail-oriented professional with extensive experience 
 <div class="experience-entry">
 <div class="job-header">
 <div class="job-title">Information Professional / Secondary Research Analyst</div>
+<div class="job-date">2015 – Present</div>
 </div>
 <div class="company-row">
 <span class="company-name">Scientific Information Centre and Academic Library (CINiBA)</span>
-<span class="job-meta">
-<span> 2015 – Present</span>
-</span>
+<span class="job-location">Katowice, PL</span>
 </div>
 <ul class="job-bullets">
 <li><strong>Research & Stakeholder Support:</strong> Delivered dedicated, high-quality secondary research and reference services for stakeholders and researchers. Routinely navigate and retrieve data across a wide array of specialized e-source platforms, press archives, and global library catalogs; seamlessly adapt to new information environments to solve complex research challenges.</li>
@@ -58,12 +119,11 @@ A highly responsible and detail-oriented professional with extensive experience 
 <div class="experience-entry">
 <div class="job-header">
 <div class="job-title">Data Entry & Validation Specialist <span class="badge-tag">Remote Project</span></div>
+<div class="job-date">Feb 2023 – Dec 2023</div>
 </div>
 <div class="company-row">
 <span class="company-name">Polish Academy of Sciences in Warsaw</span>
-<span class="job-meta">
-<span> Feb 2023 – Dec 2023</span>
-</span>
+<span class="job-location">Warsaw, PL (Remote)</span>
 </div>
 <ul class="job-bullets">
 <li><strong>Data Entry & Quality Assurance:</strong> Executed data entry management and data corrections for the CEJSH database. Performed data validation workflows, systematically verifying record sets for absolute accuracy, detail-oriented precision, and completeness.</li>
@@ -73,13 +133,11 @@ A highly responsible and detail-oriented professional with extensive experience 
 <div class="experience-entry">
 <div class="job-header">
 <div class="job-title">Research & Data Analyst <span class="badge-tag">Remote Project</span></div>
+<div class="job-date">2017 & 2019</div>
 </div>
 <div class="company-row">
 <span class="company-name">West Pomeranian University of Technology in Szczecin</span>
-<span class="job-meta">
-<span> Oct – Nov 2017 | Nov – Dec 2019</span>
-
-</span>
+<span class="job-location">Szczecin, PL (Remote)</span>
 </div>
 <ul class="job-bullets">
 <li><strong>Secondary Research & Data Collection:</strong> Served as a contractor for the "Analysis of Polish scientific journals" Ministry of Science and Higher Education project, utilizing advanced analytical skills to collect and structure complex data on scientific journals and publishers.</li>
@@ -90,12 +148,11 @@ A highly responsible and detail-oriented professional with extensive experience 
 <div class="experience-entry">
 <div class="job-header">
 <div class="job-title">Reference Librarian / Knowledge Management Specialist</div>
+<div class="job-date">2008 – 2015</div>
 </div>
 <div class="company-row">
 <span class="company-name">Scientific Information Centre and Academic Library (CINiBA)</span>
-<span class="job-meta">
-<span> 2008 – 2015</span>
-</span>
+<span class="job-location">Katowice, PL</span>
 </div>
 <ul class="job-bullets">
 <li><strong>Instructional Design & Training Delivery:</strong> Co-authored and developed an interactive e-learning course focused on boosting digital and information literacy; facilitated comprehensive group workshops and one-on-one training sessions to onboard new users.</li>
@@ -107,53 +164,55 @@ A highly responsible and detail-oriented professional with extensive experience 
 
 </section>
 
-<!-- EDUCATION -->
-<section class="cv-section">
-<h2 class="section-title">EDUCATION</h2>
-
-<div class="education-entry">
-<div class="degree-title">Master’s Degree in Library and Information Science (LIS)</div>
-<div class="company-row">
-<span class="company-name">University of Silesia in Katowice</span>
-<span class="job-meta">
-<span> 2006 – 2008</span>
-</span>
-</div>
-</div>
-
-<div class="education-entry">
-<div class="degree-title">Bachelor’s Degree in Library and Information Science (LIS)</div> 
-<div class="company-row">
-<span class="company-name">University of Silesia in Katowice</span>
-<span class="job-meta">
-<span> 2003 – 2006</span>
-</span>
-</div>
-</div>
-</section>
-
 <!-- LANGUAGES -->
 <section class="cv-section">
 <h2 class="section-title">LANGUAGES</h2>
-<div class="languages-grid">
+<div class="languages-row">
 
-
-<div class="lang-info">
+<div class="lang-item">
 <span class="lang-name">Polish</span>
-<span class="lang-sub">Native</span>
-<span class="bar"></span>
+<span class="lang-level">Native</span>
+<div class="dot-rating">
+<span class="dot active"></span>
+<span class="dot active"></span>
+<span class="dot active"></span>
+<span class="dot active"></span>
+<span class="dot active"></span>
+</div>
+</div>
 
-<div class="lang-info">
+<div class="lang-item">
 <span class="lang-name">English</span>
-<span class="lang-sub">C1 Advanced</span>
-<span class="bar"></span>
+<span class="lang-level">C1 Advanced</span>
+<div class="dot-rating">
+<span class="dot active"></span>
+<span class="dot active"></span>
+<span class="dot active"></span>
+<span class="dot active"></span>
+<span class="dot"></span>
+</div>
+</div>
 
-<div class="lang-info">
+<div class="lang-item">
 <span class="lang-name">Spanish</span>
-<span class="lang-sub">A1 Basic</span>
-<span class="bar"></span>
+<span class="lang-level">A1 Basic</span>
+<div class="dot-rating">
+<span class="dot active"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+<span class="dot"></span>
 </div>
 </div>
 
+</div>
+</section>
+
+<!-- GDPR -->
+<div class="gdpr-box">
+I agree to the processing of personal data provided in this document for realizing the recruitment process under the Personal Data Protection Act of 10 May 2018 and in agreement with Regulation (EU) 2016/679 (GDPR).
+</div>
+
+</main>
 
 </div>
