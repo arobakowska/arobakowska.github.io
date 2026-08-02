@@ -113,14 +113,13 @@ body {
     radial-gradient(var(--dot-color) 1px, transparent 1px);
   background-size: 100% 100%, 100% 100%, 100% 100%, 24px 24px;
   background-attachment: fixed;
+  /* Justify main text for better readability on long lines */
+  text-align: justify;
+  text-justify: inter-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
-
-/* Justify main text for better readability on long lines */
-text-align: justify;
-text-justify: inter-word;
--webkit-hyphens: auto;
--ms-hyphens: auto;
-hyphens: auto;
 
 h1,
 h2,
@@ -184,10 +183,8 @@ p {
   margin-top: 0;
   margin-bottom: 1.25rem;
   transition: color 0.3s ease;
+  text-align: justify;
 }
-
-/* Ensure paragraphs are justified */
-text-align: justify;
 
 a {
   color: var(--accent-color);
